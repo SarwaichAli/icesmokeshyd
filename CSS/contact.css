@@ -1,0 +1,177 @@
+body{
+    background-color: #121619;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    margin-top: 15px;
+}
+.number {
+    float: left;
+    margin-top: 20px;
+}
+.number i {
+    float: left;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.number h5 {
+    display: inline;
+}
+.logo{
+    text-align: center;
+}
+.logo img {
+    width: 80px;
+}
+.address{
+    margin-top: 20px;
+}
+.address i {
+    float: left;
+    font-size: 28px;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+.address p {
+    margin-left: 32px;
+}
+nav.navstart {
+    color: white !important;
+    background: #121619;
+    border: none;
+}
+ul.mynav li a {
+    color: white !important;
+    padding: 20px;
+}
+ul.mynav li a:hover {
+    color: #ffc851 !important;
+    transition: 1s ease all;
+}
+ul.mynav {
+    margin-left: 425px;
+    margin-top: 10px;
+}
+.mycaption{
+    color: black;
+}
+.my-btn {
+    background-color: #ffc851;
+    color: black;
+    border: none;
+}
+.my-btn:hover{
+    background-color: #121619;
+    color: white;
+    transition: 1s ease all;
+}
+.cover {
+    background-color: #ffc851;
+    padding: 25px 0px 25px 0px;
+    color: black;
+    text-align: center;
+}
+.contact-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-heading h2 {
+    color: #ffc851;
+}
+.contact-form h4 {
+    margin-bottom: 30px;
+}
+.contact-address h4 {
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+.contact-address p {
+    padding-top: 10px;
+}
+.form-group input {
+    background: transparent;
+    color: white;
+}
+textarea.form-control {
+    background: transparent;
+}
+.contact-form button {
+    color: black;
+    padding: 8px 15px 8px 16px;
+    border: none;
+    border-radius: 5px;
+}
+.contact-form button:hover {
+    background-color: #ffc851;
+    color: black;
+    transition: 1s ease all;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer img {
+    width: 80px;
+}
+.footer-nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+.footer-nav ul li a{
+    color: white !important;
+    text-decoration: none;
+}
+.footer h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer h5 span {
+    margin-left: 20px;
+    color: #a5a2a2;
+}
+.copyright {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.footer-nav ul li :hover {
+    color: #ffc851 !important;
+    transition: 1s ease all;
+}
+@media only screen and (max-width: 600px) {
+    ul.mynav {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .logo {
+        float: left;
+    }
+    .address {
+        font-size: 12px;
+    }
+    .address i {
+        float: left;
+        font-size: 22px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .address p {
+        margin-left: 0px;
+    }
+    .number i {
+        font-size: 22px;
+        margin-left: -10px;
+    }
+    .number p {
+        font-size: 12px;
+    }
+    .number {
+        margin-top: 0px;
+    }
+    .contact-address {
+        margin-top: 50px;
+    }
+
+}

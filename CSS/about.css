@@ -1,0 +1,188 @@
+body{
+    background-color: #121619;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    margin-top: 15px;
+}
+.number {
+    float: left;
+    margin-top: 20px;
+}
+.number i {
+    float: left;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.number h5 {
+    display: inline;
+}
+.logo{
+    text-align: center;
+}
+.logo img {
+    width: 80px;
+}
+.address{
+    margin-top: 20px;
+}
+.address i {
+    float: left;
+    font-size: 28px;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+.address p {
+    margin-left: 32px;
+}
+nav.navstart {
+    color: white !important;
+    background: #121619;
+    border: none;
+}
+ul.mynav li a {
+    color: white !important;
+    padding: 20px;
+}
+ul.mynav li a:hover {
+    color: #ffc851 !important;
+    transition: 1s ease all;
+}
+ul.mynav {
+    margin-left: 425px;
+    margin-top: 10px;
+}
+.mycaption{
+    color: black;
+}
+.my-btn {
+    background-color: #ffc851;
+    color: black;
+    border: none;
+}
+.my-btn:hover{
+    background-color: #121619;
+    color: white;
+    transition: 1s ease all;
+}
+.cover {
+    background-color: #ffc851;
+    padding: 25px 0px 25px 0px;
+    color: black;
+    text-align: center;
+}
+.ourteam {
+    margin-top: 60px;
+}
+.team-member img {
+    width: 100%;
+}
+.team-member {
+    text-align: center;
+    margin-top: 20px;
+}
+.team-member h4{
+    margin-top: 17px;
+}
+.philosophy {
+    margin-top: 50px;
+}
+.philosophy-text {
+    background-color: #212325;
+}
+.philosophy-text h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 26px;
+}
+.philosophy-text p {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 152px;
+}
+.philosophy-text h6 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.philosophy-img img {
+    width: 100%;
+}
+.team-member img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.philosophy-img {
+    background-color: #212325;
+}
+.map {
+    padding-top: 40px;
+    background-color: black;
+    padding-bottom: 30px;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer img {
+    width: 80px;
+}
+.footer-nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+.footer-nav ul li a{
+    color: white !important;
+    text-decoration: none;
+}
+.footer h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer h5 span {
+    margin-left: 20px;
+    color: #a5a2a2;
+}
+.copyright {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.footer-nav ul li :hover {
+    color: #ffc851 !important;
+    transition: 1s ease all;
+}
+@media only screen and (max-width: 600px) {
+    ul.mynav {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .logo {
+        float: left;
+    }
+    .address {
+        font-size: 12px;
+    }
+    .address i {
+        float: left;
+        font-size: 22px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .address p {
+        margin-left: 0px;
+    }
+    .number i {
+        font-size: 22px;
+        margin-left: -10px;
+    }
+    .number p {
+        font-size: 12px;
+    }
+    .number {
+        margin-top: 0px;
+    }
+
+}
